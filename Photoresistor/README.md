@@ -25,7 +25,7 @@ Building the circuit:
 (If the breadboard doesn't have positive rail, connect the wire directly to the left side of the LDR)
 
 2)Connect pin #6 (ground) to the ground rail on the breadboard.
-(If the breadboard doesn't have negative rail,connect the wire directly after the negative pin of the capasitor)
+(If the breadboard doesn't have negative rail,connect the wire directly after the negative pin of the capacitor)
 
 3)Place the LDR sensor onto the board and have a wire go from one end to the positive rail.
 
@@ -46,9 +46,9 @@ the presence of light, there is more current flowing, and the capacitor charges 
 After this we will have measured the value of the LDR resistance,so we can use it to calculate the light in lux with 
 the equation below:
 
-lux = 10000 / [(R[Ω]/100)^(4/3)]
+lux = 10000 / [(R[Ω]/100)^(4/3)]     (*R[Ω] is the resistance of the LDR)
 
-*R[Ω] is the resistance of the LDR
+
 
 
 Illuminance (lux)	 >      Surfaces illuminated by
