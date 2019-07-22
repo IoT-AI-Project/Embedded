@@ -1,3 +1,6 @@
+**NOTE:LDRs are slow acting and non-linear.They are not well suited to accurate measurement of light intensity,but 
+better employed for light detection.**
+
 Raspberry Pi Requirements:
 
 For this project i worked on a Raspberry Pi 3 model b+
@@ -16,8 +19,6 @@ For the sensor installation we need:
 -1x 1µf capacitor
 -3x(or more) Jumper Wires
 
-**NOTE:LDRs are slow acting and non-linear.They are not well suited to accurate measurement of light intensity,but 
-better employed for light detection.**
 
 Building the circuit:
 
