@@ -1,4 +1,4 @@
-**NOTE:LDRs are slow acting and non-linear.They are not well suited to accurate measurement of light intensity,but 
+**NOTE: LDRs are slow acting and non-linear.They are not well suited to accurate measurement of light intensity,but 
 better employed for light detection.**
 
 Raspberry Pi Requirements:
@@ -51,40 +51,40 @@ the presence of light, there is more current flowing, and the capacitor charges 
 After this we will have measured the value of the LDR resistance,so we can use it to calculate the light in lux with 
 the equation below:
 
-lux = 10000 / [(R[Ω]/100)^(4/3)]     (*R[Ω] is the resistance of the LDR)
+lux = 10000 / [(R[Ω]/100)^(4/3)],     (*R[Ω] is the resistance of the LDR)
 
 
 
 
-Illuminance (lux)	 >      Surfaces illuminated by
+Illuminance (lux):	 ->      Surfaces illuminated by :
 
 
-0.0001   	         >        Moonless, overcast night sky (starlight)   
+0.0001   	         ->        Moonless, overcast night sky (starlight)   
 
-0.002	             >        Moonless clear night sky with airglow
+0.002	             ->        Moonless clear night sky with airglow
  
-0.05–0.3	          >        Full moon on a clear night
+0.05–0.3	          ->        Full moon on a clear night
 
-3.4	               >        Dark limit of civil twilight under a clear sky
+3.4	               ->        Dark limit of civil twilight under a clear sky
 
-20–50	             >        Public areas with dark surroundings
+20–50	             ->        Public areas with dark surroundings
 
-50	                >        Family living room lights
+50	                ->        Family living room lights
 
-80	                >        Office building hallway/toilet lighting
+80	                ->        Office building hallway/toilet lighting
 
-100	               >        Very dark overcast day
+100	               ->        Very dark overcast day
 
-150	               >        Train station platforms
+150	               ->        Train station platforms
 
-320–500	           >        Office lighting
+320–500	           ->        Office lighting
 
-400	               >        Sunrise or sunset on a clear day.
+400	               ->        Sunrise or sunset on a clear day.
 
-1000	              >        Overcast day-typical TV studio lighting
+1000	              ->        Overcast day-typical TV studio lighting
 
-10,000–25,000	     >        Full daylight (not direct sun)
+10,000–25,000	     ->        Full daylight (not direct sun)
 
-32,000–100,000	    >        Direct sunlight
+32,000–100,000	    ->        Direct sunlight
 
 
