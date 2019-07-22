@@ -1,9 +1,6 @@
-**NOTE: LDRs are slow acting and non-linear.They are not well suited to accurate measurement of light intensity,but 
-better employed for light detection.**
+For this project i worked on a Raspberry Pi 3 model b+
 
 Raspberry Pi Requirements:
-
-For this project i worked on a Raspberry Pi 3 model b+
 
 We need to install:
 
@@ -88,3 +85,5 @@ Illuminance (lux):	 ->      Surfaces illuminated by :
 32,000–100,000	    ->        Direct sunlight
 
 
+**NOTE: LDRs are slow acting and non-linear.They are not well suited to accurate measurement of light intensity,but 
+better employed for light detection.**
