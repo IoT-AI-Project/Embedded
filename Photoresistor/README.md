@@ -14,9 +14,13 @@ We need to install:
 For the sensor installation we need:
 
 -Raspberry Pi x 1
+
 -1x LDR(light dependent resistor)
+
 -1x Breadboard
+
 -1x 1µf capacitor
+
 -3x(or more) Jumper Wires
 
 
