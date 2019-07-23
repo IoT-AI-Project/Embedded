@@ -38,6 +38,8 @@ pin of the capacitor in the negative rail.
  
 Run the script using the command : python light_sensor.py
 
+(The value will be stored in the variable data in json formatt)
+
 How it works:
 
 The sensor will essentially charge a 1µF capacitor while measuring the amount of time needed until it 
