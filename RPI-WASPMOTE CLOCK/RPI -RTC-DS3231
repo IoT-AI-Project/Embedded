@@ -1,0 +1,57 @@
+In this project we'll use DS3231 RTC Module
+
+Make sure the PI is up to date: ->sudo apt-get update
+                                 ->sudo apt-get upgrade
+
+-First connect the RTC module to the raspberry as follows:
+
+     Vin/VCC/5V connects to Pin 1
+     SDA connects to Pin 3
+     SCL connects to Pin 5
+     GND connects to Pin 6
+---------------------------------------------------------------------
+-sudo raspi-config and do the following:
+   Select “5 Interfacing Options“ and  press Enter.Then  select “P5 I2C“ and press Enter.
+   When asked if you want to enable the “ARM I2C Interface“, select Yes  press Enter.
+   The following text should appear on the screen: “The ARM I2C interface is enabled“.
+   Then reboot the pi -> sudo reboot
+----------------------------------------------------------------------
+-We need to install an additional two packages
+  ->sudo apt-get install python-smbus i2c-tools
+----------------------------------------------------------------------
+-If you have successfully wired up your RTC circuit, you should see the ID #68 appear,
+ when you run this command -> sudo i2cdetect -y 1
+----------------------------------------------------------------------
+-Configuring the Raspberry Pi to use our RTC Chip for its time
+ Edit the /boot/config.txt file and add the following line at the bottom of the file:
+ 
+  dtoverlay=i2c-rtc,ds3231    and reboot the pi
+
+If UU appears instead of 68, when we run sudo i2cdetect -y 1,then we have 
+successfully loaded in the Kernel driver for our RTC circuit.
+
+-Disable the fake-hwclock package
+   ->sudo apt-get -y remove fake-hwclock
+   ->sudo update-rc.d -f fake-hwclock remove
+----------------------------------------------------------------------
+-Run the following command to begin editing the original RTC script.
+   ->sudo nano /lib/udev/hwclock-set
+   Find the following lines and comment them:
+     
+       if [ -e /run/systemd/system ] ; then
+         exit 0
+       fi
+
+    save and exit
+------------------------------------------------------------------------
+-Setting the correct time
+
+  The last step is to connect the pi to the internet to set its time via wifi. When
+  the time is set up(confirm with date command) run ->sudo hwclock -w  
+  This command will write the time from the Raspberry Pi to the RTC Module.
+  After that the RTC will have the correct time and  the PI also.
+
+(You can read the time directly from the RTC module by running the following command
+ ->sudo hwclock -D -r)
+
+
