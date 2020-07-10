@@ -1,6 +1,6 @@
 Reolink Go Analysis
 
-1)CAPABILITIES
+1)  CAPABILITIES
 
 •	4G Connectivity: It connects to 4G LTE wireless network, enabling it to roam free in locations with limited or no Wi-Fi. 
 
@@ -20,7 +20,7 @@ Reolink Go Analysis
 
 -----------------------------------------------------------------------------------------
 
-2)PLACEMENT
+2)  PLACEMENT
 
 - The viewing angle of Reolink Go is diagonal 130° and horizontal 110° vertical. Μake sure that the monitoring area is well within its field of view.
 
@@ -30,7 +30,7 @@ Reolink Go Analysis
 
 -----------------------------------------------------------------------------------------
 
-3)APP INSTALLATION
+3)  APP INSTALLATION
 
 Install the SIM card and power it up, then you may start the initial setup via the Reolink App when you hear the voice "Network connection succeeded".
 
@@ -46,7 +46,7 @@ Install the SIM card and power it up, then you may start the initial setup via t
 
 -----------------------------------------------------------------------------------------
 
-4)FTP INSTALLATION
+4)  FTP INSTALLATION
 
 a) Raspberry Pi Set up
 
@@ -109,14 +109,15 @@ Finally:
 
 -> sudo service pure-ftpd restart
 
+----
 
 b) Reolink Go set up
 
-Step 1. Launch Reolink App, log into your device and click Device Settings.
+1) Launch Reolink App, log into your device and click Device Settings.
 
-Step 2. Go to More-> FTP UPload page, enable FTP Upload option and then click FTP Settings to enter this page.
+2) Go to More-> FTP UPload page, enable FTP Upload option and then click FTP Settings to enter this page.
 
-Step 3. Complete the information required and click Sure to save all the settings.
+3) Complete the information required and click Sure to save all the settings.
 
 •	Server Address: Type in the address of your FTP server and FTP Port. The default FTP Port for Reolink products is 21.
 
