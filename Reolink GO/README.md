@@ -1,6 +1,6 @@
 Reolink Go Analysis
 
-1)Capabilities
+1)CAPABILITIES
 
 •	4G Connectivity: It connects to 4G LTE wireless network, enabling it to roam free in locations with limited or no Wi-Fi. 
 
@@ -17,9 +17,10 @@ Reolink Go Analysis
 •	Cloud Storage: Save motion-triggered recordings securely in the Reolink Cloud and never miss important details.
 
 •	operates on 4G-LTE and 3G networks.
+
 -----------------------------------------------------------------------------------------
 
-2)Placement
+2)PLACEMENT
 
 - The viewing angle of Reolink Go is diagonal 130° and horizontal 110° vertical. Μake sure that the monitoring area is well within its field of view.
 
@@ -29,7 +30,7 @@ Reolink Go Analysis
 
 -----------------------------------------------------------------------------------------
 
-3)APP Installation
+3)APP INSTALLATION
 
 Install the SIM card and power it up, then you may start the initial setup via the Reolink App when you hear the voice "Network connection succeeded".
 
@@ -45,7 +46,7 @@ Install the SIM card and power it up, then you may start the initial setup via t
 
 -----------------------------------------------------------------------------------------
 
-4)FTP Installation
+4)FTP INSTALLATION
 
 a) Raspberry Pi Set up
 
