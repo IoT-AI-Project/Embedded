@@ -115,13 +115,13 @@
 
   1) Launch Reolink App, log into your device and click Device Settings.
 
-  2) Go to More-> FTP UPload page, enable FTP Upload option and then click FTP Settings to enter this page.
+  2) Go to More-> FTP UPload page, enable FTP Upload option and then click FTP Settings.
 
   3) Complete the information required and click Sure to save all the settings.
 
   •	Server Address: Type in the address of your FTP server and FTP Port. The default FTP Port for Reolink products is 21.
 
-  •	User Name and Password: Enter the User Name and Password of your FTP server. If there is no username and password required, please enable Anonymous FTP.
+  •	User Name and Password: Enter the User Name and Password of your FTP server. If there is no username and password required, enable Anonymous FTP.
 
   •	Upload Directory: Set an upload directory for device video recording. You may also leave it blank.
 
@@ -131,7 +131,7 @@
 
   •	FTP Postpone: Set the record time limit after a motion is detected. This option is only available when File Type is Video and FTP Schedule is Motion.
 
-  •	Transfer Mode: divided into Auto, PORT, and PASV three parts. We suggest you choose the Auto option.
+  •	Transfer Mode: divided into Auto, PORT, and PASV three parts(Auto option suggested).
 
 
 
