@@ -111,7 +111,7 @@
 
 ----
 
-  b) Reolink Go set up
+  b) Camera set up (except battery-powered cameras)
 
   1) Launch Reolink App, log into your device and click Device Settings.
 
